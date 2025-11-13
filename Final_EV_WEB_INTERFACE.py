@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import google.generativeai as genai
 
-GEMINI_API_KEY = "AIzaSyAO7GEVfx45h9teuuv8Rcvy_t-qVQuHNN0"   # Set your key here or use os.environ.get(...)
+GEMINI_API_KEY = " " # I USED MY API KEY (SECRET KEY)
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('models/gemini-2.5-flash')
 
